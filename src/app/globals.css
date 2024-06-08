@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  font-family: Roboto;
+  background: #fafafa;
+  font-size: 14px;
+}
+.container {
+  max-width: 836px;
+}
+.front-image {
+  position: absolute;
+  top: 0px;
+  left: 0px
+}
+.back-image {
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+}
+.logo {
+  opacity: 1 !important;
+  position: absolute;
+  left: 355px;
+  top: 10px
+}
+.title {
+
+
+}
